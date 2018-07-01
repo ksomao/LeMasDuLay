@@ -1,9 +1,12 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-import StateLessComp from '../components/homes/StateLessComp'
+import ButtonImg from '../components/home_page/ButtonImg'
+import Menu from '../components/home_page/Menu'
 
 import { loadBirds } from '../store/birds/actions'
+
+
 
 class Home extends React.Component {
     constructor(props) {
@@ -19,9 +22,7 @@ class Home extends React.Component {
 
     render() {
         return(
-            <div>
-                <StateLessComp birds={this.props.birds} isLoading={this.props.isLoading}/>
-            </div> 
+            <Menu/>
         )
     }
 }
