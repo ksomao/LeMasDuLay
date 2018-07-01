@@ -1,3 +1,37 @@
-body {
-  background-color: #ffffff;
+body{
+  background-color: white;
+}
+.text{
+  font-size: 40px;
+  color:$rond_green;
+  font-family: $title_font;
+}
+.ButtonImg{
+  background-color: $button_green;
+  font-family: $p_font;
+  font-size: $p_size;
+  height: 60px;
+  width: 204px;
+  color:$p_color;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.Menu{
+  width: 950px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+}
+.Menu_link{
+  font-family: $title_font;
+  font-size: 45px;
+  color:$rond_green;
+  list-style: none;
+
+
+
 }
