@@ -4,7 +4,7 @@ import {Loading} from 'element-react'
 const ButtonImg = ({text,imgPath}) => {
     return(
 
-          <div className='ButtonImg'>{text} <img src={imgPath}/></button>
+          <button className='ButtonImg'>{text} <img src={imgPath}/></button>
 
     )
 }
