@@ -1,5 +1,6 @@
 body{
   background-color: white;
+
 }
 .text{
   font-size: 40px;
@@ -18,13 +19,16 @@ body{
   font-weight: bold;
   letter-spacing: 1px;
 }
+
+// Navigation
+
 .Menu{
   width: 950px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-
+  margin-bottom: 100px;;
 }
 .Menu_link{
   font-family: $title_font;
@@ -32,6 +36,57 @@ body{
   color:$rond_green;
   list-style: none;
 
+}
 
+// Header
 
+.Header{
+  // background-image: url('');
+  width: 902px;
+  height: 544px;
+}
+.HeaderDescription{
+  background-color: $rond_green;
+  color: #ffffff;
+  font-family: $p_font;
+  width: 560px;
+  height: 410px;
+  align:left;
+  padding:20px;
+}
+.HeaderDescription h2{
+  font-family: $title_font;
+  font-size: 60px;
+  line-height: 60px;
+  align: left;
+  letter-spacing: 15px;
+}
+.HeaderDescription p{
+font-size: $p_size;
+line-height: 40px;
+}
+
+.About{
+
+  width:65%;
+  margin: 0 auto;
+
+}
+.AboutDescription p{
+font-family: $p_font;
+font-size: $p_size;
+color: $p_color;
+text-align: center;
+line-height: 40px;
+
+}
+
+.GiteDescription p{
+font-family: $p_font;
+font-size: $p_size;
+line-height: 30px;
+align: center;
+width: 382px;
+margin-left: 266px;
+color: $p_color;
 }
