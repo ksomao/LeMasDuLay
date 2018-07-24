@@ -1,6 +1,5 @@
 import React from 'react'
 import {connect} from 'react-redux'
-
 import ButtonImg from '../components/home_page/ButtonImg'
 import Menu from '../components/home_page/Menu'
 import Header from '../components/home_page/Header'
@@ -9,10 +8,11 @@ import SectionGite from '../components/home_page/SectionGite'
 import SectionExtension from '../components/home_page/SectionExtension'
 import SectionBooking from '../components/home_page/SectionBooking'
 import SectionContact from '../components/home_page/SectionContact'
-
+import content from '../content'
 
 import {loadBirds} from '../store/birds/actions'
 import SectionTitle from "../components/home_page/SectionTitle";
+import Activity from "../components/home_page/Activity";
 
 
 class Home extends React.Component {
@@ -20,11 +20,31 @@ class Home extends React.Component {
         super(props)
         this.state = {
             isRefreshing: false,
+            data: []
         }
     }
 
     componentDidMount() {
         this.props.dispatch(loadBirds())
+        this.setState({data: JSON.parse(JSON.stringify(content))})
+    }
+
+    getActivities(){
+      if (!this.state.data.activities) {
+          return <div/>
+      }
+
+      return (
+          <div className={"container"}>
+              <Menu/>
+              <SectionTitle text={"Alentours"}/>
+
+              <div className="activities mt-5 d-flex flex-column align-items-center ">
+                  return {this.state.data.activities.map((activity, index) => (
+                      <Activity activity={activity} key={index}/>
+                  ))}
+              </div>
+            )
     }
 
     render() {
@@ -44,8 +64,7 @@ class Home extends React.Component {
             <SectionBooking/>
             <SectionTitle text='Contact'/>
             <SectionContact/>
-
-
+            {this.getActivities()}
 
             </div>
         )

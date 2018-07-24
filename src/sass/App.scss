@@ -2,18 +2,20 @@
 body{
   background-color: white;
 }
-.text{
+
+.text {
   font-size: 40px;
-  color:$rond_green;
+  color: $rond_green;
   font-family: $title_font;
 }
-.ButtonImg{
+
+.ButtonImg {
   background-color: $button_green;
   font-family: $p_font;
   font-size: $p_size;
   height: 60px;
   width: 204px;
-  color:$p_color;
+  color: $p_color;
   border: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -30,10 +32,11 @@ body{
   margin-top: 50px;
   margin-bottom: 100px;;
 }
-.Menu_link{
+
+.Menu_link {
   font-family: $title_font;
   font-size: 45px;
-  color:$rond_green;
+  color: $rond_green;
   list-style: none;
 }
 // Header
@@ -112,7 +115,7 @@ color: $p_color;
 
 // Title
 
-.section-title{
+.section-title {
   display: flex;
   justify-content: center;
 
