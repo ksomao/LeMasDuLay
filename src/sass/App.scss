@@ -1,24 +1,27 @@
-body{
+body {
   background-color: white;
 }
-.text{
+
+.text {
   font-size: 40px;
-  color:$rond_green;
+  color: $rond_green;
   font-family: $title_font;
 }
-.ButtonImg{
+
+.ButtonImg {
   background-color: $button_green;
   font-family: $p_font;
   font-size: $p_size;
   height: 60px;
   width: 204px;
-  color:$p_color;
+  color: $p_color;
   border: none;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
 }
-.Menu{
+
+.Menu {
   width: 950px;
   margin: 0 auto;
   display: flex;
@@ -26,27 +29,32 @@ body{
   margin-top: 50px;
 
 }
-.Menu_link{
+
+.Menu_link {
   font-family: $title_font;
   font-size: 45px;
-  color:$rond_green;
+  color: $rond_green;
   list-style: none;
 }
 
-.section-title{
+.section-title {
   display: flex;
   justify-content: center;
- .circle{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 80px;
-   width: 80px;
-   border-radius: 100px;
-   background-color: #6FCF97;
-   span{
-     font-family: "Pompiere", serif;
-     font-size: 65px;
-   }
- }
+  .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    background-color: #6FCF97;
+    span {
+      width: 240px;
+      font-family: "Pompiere", serif;
+      font-size: 65px;
+      white-space: nowrap;
+    }
+  }
 }
+
+
