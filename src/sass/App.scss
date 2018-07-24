@@ -31,7 +31,22 @@ body{
   font-size: 45px;
   color:$rond_green;
   list-style: none;
+}
 
-
-
+.section-title{
+  display: flex;
+  justify-content: center;
+ .circle{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 80px;
+   width: 80px;
+   border-radius: 100px;
+   background-color: #6FCF97;
+   span{
+     font-family: "Pompiere", serif;
+     font-size: 65px;
+   }
+ }
 }

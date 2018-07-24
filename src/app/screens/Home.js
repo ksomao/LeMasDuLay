@@ -1,18 +1,18 @@
 import React from 'react'
-import { connect } from 'react-redux'
+import {connect} from 'react-redux'
 
 import ButtonImg from '../components/home_page/ButtonImg'
 import Menu from '../components/home_page/Menu'
 
-import { loadBirds } from '../store/birds/actions'
-
+import {loadBirds} from '../store/birds/actions'
+import SectionTitle from "../components/home_page/SectionTitle";
 
 
 class Home extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            isRefreshing : false,
+            isRefreshing: false,
         }
     }
 
@@ -21,17 +21,21 @@ class Home extends React.Component {
     }
 
     render() {
-        return(
-            <Menu/>
+        return (
+            <div>
+                <Menu/>
+                <SectionTitle text={"Nous"}/>
+            </div>
+
         )
     }
 }
 
 const mapStateToProps = state => {
-	return {
+    return {
         birds: state.birds.list.data,
         isLoading: state.birds.list.loading
-	}
+    }
 }
 
 export default connect(mapStateToProps)(Home)
