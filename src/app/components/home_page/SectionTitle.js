@@ -1,16 +1,14 @@
 import React from 'react'
 import {Loading} from 'element-react'
 
-const SectionTitle = () => {
-    return(
-
-          <div className='Title'>
-          <div className='TitleDescription'>
-          <p>Nous</p> 
-          </div>
-          </div>
+const SectionTitle = ({text}) => {
+    return (
+        <div className={"section-title"}>
+            <div className={"circle"}>
+                <span>{text}</span>
+            </div>
+        </div>
     )
 }
-
 
 export default SectionTitle

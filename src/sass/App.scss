@@ -1,6 +1,6 @@
+
 body{
   background-color: white;
-
 }
 .text{
   font-size: 40px;
@@ -35,24 +35,30 @@ body{
   font-size: 45px;
   color:$rond_green;
   list-style: none;
-
 }
-
 // Header
 
 .Header{
-  // background-image: url('');
-  width: 902px;
-  height: 544px;
+  background-image: url("./images/Header.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-bottom: 50px;
+  position: relative;
 }
 .HeaderDescription{
   background-color: $rond_green;
   color: #ffffff;
   font-family: $p_font;
   width: 560px;
-  height: 410px;
-  align:left;
   padding:20px;
+  position: absolute;
+  right: 0;
+  margin-right: -50px;
+  top: 50%;
+  transform:translateY(-50%);
+
 }
 .HeaderDescription h2{
   font-family: $title_font;
@@ -60,16 +66,20 @@ body{
   line-height: 60px;
   align: left;
   letter-spacing: 15px;
+  padding-top: 20px;
 }
 .HeaderDescription p{
 font-size: $p_size;
 line-height: 40px;
 }
 
+// About
+
 .About{
 
   width:65%;
-  margin: 0 auto;
+  margin: 50px auto 0;
+
 
 }
 .AboutDescription p{
@@ -81,12 +91,61 @@ line-height: 40px;
 
 }
 
+// Gite
+
+.Gite{
+  margin-top: 50px;
+}
+
+.GiteDescription{
+  margin: 0 auto;
+}
+
 .GiteDescription p{
 font-family: $p_font;
 font-size: $p_size;
-line-height: 30px;
+line-height: 40px;
 align: center;
 width: 382px;
-margin-left: 266px;
 color: $p_color;
+}
+
+// Title
+
+.section-title{
+  display: flex;
+  justify-content: center;
+
+
+ .circle{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 80px;
+   width: 80px;
+   border-radius: 100px;
+   background-color: #6FCF97;
+   span{
+     font-family: "Pompiere", serif;
+     font-size: 65px;
+     white-space: nowrap;
+
+   }
+ }
+}
+
+// Extension
+
+.Extension{
+  margin-top: 50px;
+}
+.ExtensionDescription{
+  font-family: $p_font;
+  font-size: $p_size;
+  line-height: 40px;
+  align: center;
+  width: 382px;
+  color: $p_color;
+  margin-top: 50px;
+
 }
