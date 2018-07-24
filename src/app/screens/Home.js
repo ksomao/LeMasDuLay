@@ -38,7 +38,7 @@ class Home extends React.Component {
             <div className={"Alentours"}>
                 <SectionTitle text={"Alentours"}/>
                 <div className="activities mt-5 d-flex flex-column align-items-center ">
-                    return {this.state.data.activities.map((activity, index) => (
+                     {this.state.data.activities.map((activity, index) => (
                     <Activity activity={activity} key={index}/>
                 ))}
                 </div>

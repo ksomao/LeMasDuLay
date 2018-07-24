@@ -4,7 +4,7 @@ class Menu extends Component {
 
 constructor(props) {
     super(props);
-    this.navLink = ['Nous', 'Le gîte', 'Alentours', 'Réservation', 'Contact']
+    this.navLink = ['Nous', 'Le gîte', 'Alentours', 'Tarifs', 'Contact']
 }
 
 

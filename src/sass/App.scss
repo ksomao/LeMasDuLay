@@ -42,9 +42,8 @@ body{
 // Header
 
 .Header{
-  background-image: url("./images/Header.jpg");
+  background: transparent url("./images/Header.jpg") no-repeat top center fixed;
   width: 100%;
-  background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
   margin-bottom: 50px;
@@ -54,7 +53,7 @@ body{
   background-color: $rond_green;
   color: #ffffff;
   font-family: $p_font;
-  width: 560px;
+  width: 60%;
   padding:20px;
   position: absolute;
   right: 0;
@@ -73,7 +72,7 @@ body{
 }
 .HeaderDescription p{
 font-size: $p_size;
-line-height: 40px;
+line-height: $p_ligneheight;
 }
 
 // About
@@ -90,7 +89,7 @@ font-family: $p_font;
 font-size: $p_size;
 color: $p_color;
 text-align: center;
-line-height: 40px;
+line-height: $p_ligneheight;
 
 }
 
@@ -107,7 +106,7 @@ line-height: 40px;
 .GiteDescription p{
 font-family: $p_font;
 font-size: $p_size;
-line-height: 40px;
+line-height: $p_ligneheight;
 align: center;
 width: 382px;
 color: $p_color;
@@ -145,10 +144,31 @@ color: $p_color;
 .ExtensionDescription{
   font-family: $p_font;
   font-size: $p_size;
-  line-height: 40px;
+  line-height: $p_ligneheight;
   align: center;
   width: 382px;
   color: $p_color;
   margin-top: 50px;
+
+}
+
+
+.Contact .Contactform form input{
+  height: 40px;
+  background: rgba(0, 0, 0, 0.03);
+  border: none;
+
+
+}
+
+.form input, textarea{
+    font-size: 0.8em;
+    font-family: 'proxima-nova-soft', sans-serif;
+    border: 1px solid #ddd;
+    background: rgba(0, 0, 0, 0.03);
+    padding: 0.9em;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    border: none;
 
 }
