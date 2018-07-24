@@ -11,5 +11,4 @@ const SectionTitle = ({text}) => {
     )
 }
 
-
 export default SectionTitle
