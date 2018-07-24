@@ -32,7 +32,6 @@ class Home extends React.Component {
             <div className={"container"}>
                 <Menu/>
                 <SectionTitle text={"Alentours"}/>
-
                 <div className="activities mt-5 d-flex flex-column align-items-center ">
                     {this.state.data.activities.map((activity, index) => (
                         <Activity activity={activity} key={index}/>

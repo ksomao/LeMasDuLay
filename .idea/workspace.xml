@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4993fe2e-aea8-4625-9360-191171c09051" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/bicycle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/kayak.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/panier.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/screens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/screens/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/App.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/screens/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="422">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -48,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activity.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Activity.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Activity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="5" column="97" selection-start-line="5" selection-start-column="97" selection-end-line="5" selection-end-column="97" />
+            <state relative-caret-position="322">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -126,9 +121,9 @@
         <option value="$PROJECT_DIR$/src/app/components/home_page/SectionTitle.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/sass/App.scss" />
-        <option value="$PROJECT_DIR$/src/app/screens/Home.js" />
         <option value="$PROJECT_DIR$/src/app/content.json" />
         <option value="$PROJECT_DIR$/src/app/components/home_page/Activity.js" />
+        <option value="$PROJECT_DIR$/src/app/screens/Home.js" />
       </list>
     </option>
   </component>
@@ -254,25 +249,24 @@
       <workItem from="1530445561077" duration="9476000" />
       <workItem from="1530514238586" duration="38000" />
       <workItem from="1530572050377" duration="731000" />
-      <workItem from="1532421936023" duration="12065000" />
+      <workItem from="1532421936023" duration="12773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22310000" />
+    <option name="totallyTimeSpent" value="23018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="404" y="0" width="1523" height="1087" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32873806" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32976446" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32976446" />
       <window_info anchor="bottom" id="RNConsole" order="9" weight="0.32976446" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13192071" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13192071" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -602,16 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/screens/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/content.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -634,8 +618,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Activity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="97" selection-start-line="5" selection-start-column="97" selection-end-line="5" selection-end-column="97" />
+        <state relative-caret-position="322">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/screens/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
