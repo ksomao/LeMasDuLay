@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import Home from './Home'
+import Booking from './Booking'
 
 const App = props => {
 	return (
@@ -9,7 +9,7 @@ const App = props => {
 			<Switch>
 				<Route
 					path='*'
-					component={Home} /> 
+					component={Booking} /> 
 			</Switch>
 		</Router>
 	)
