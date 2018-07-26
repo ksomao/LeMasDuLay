@@ -27,7 +27,7 @@ const SectionContact = () => {
           <input  type="email" name="email" placeholder="Email" required className='col-xs-12 col-sm-6'/>
           </div>
           <div className='row'>
-          <textarea name="message" placeholder="MESSAGE" requiredclassName='col-xs-12'/>
+          <textarea name="message" placeholder="MESSAGE" required className='col-xs-12'/>
           </div>
           </form>
           </div>
