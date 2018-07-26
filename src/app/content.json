@@ -15,5 +15,25 @@
       "title": "LES RANDONNEES",
       "text": "Les cyclistes pourront s’attaquer au plateau du Coiron ou encore à  l’Ardèchoise. Sans oublier le vélorail de la vallée du Dour et le parc d’accrobranche à Privas. Nous mettons à disposition des dépliants et des brochures actualisées chaque saison."
     }
+  ],
+  "bookings": [
+    {
+      "title": "Le mas du Lay - 4 personnes",
+      "date1": "Mars - Mai & Septembre - Octobre",
+      "price1": "85€ par nuit",
+      "date2": "Juin - Août",
+      "price2": "95€ par nuit",
+      "minNight": "Réservation de 3 nuits minimum"
+    },
+    {
+      "title": "Le mas du Lay - 6 personnes",
+      "date1": "Mars - Mai & Septembre - Octobre",
+      "price1": "110€ par nuit",
+      "date2": "Juin - Août",
+      "price2": "120€ par nuit",
+      "minNight": "Réservation de 3 nuits minimum"
+    }
   ]
 }
+
+

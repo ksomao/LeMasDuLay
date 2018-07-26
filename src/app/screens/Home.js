@@ -6,13 +6,13 @@ import Header from '../components/home_page/Header'
 import SectionAbout from '../components/home_page/SectionAbout'
 import SectionGite from '../components/home_page/SectionGite'
 import SectionExtension from '../components/home_page/SectionExtension'
-import SectionBooking from '../components/home_page/SectionBooking'
 import SectionContact from '../components/home_page/SectionContact'
 import content from '../content'
-
 import {loadBirds} from '../store/birds/actions'
 import SectionTitle from "../components/home_page/SectionTitle";
 import Activity from "../components/home_page/Activity";
+import Booking from "../components/home_page/Booking";
+import HeaderMobile from "../components/home_page/HeaderMobile";
 
 
 class Home extends React.Component {
@@ -33,7 +33,6 @@ class Home extends React.Component {
         if (!this.state.data.activities) {
             return <div/>
         }
-
         return (
             <div className={"Alentours"}>
                 <SectionTitle text={"Alentours"}/>
@@ -46,25 +45,40 @@ class Home extends React.Component {
         )
     }
 
+    getBookings() {
+        if (!this.state.data.bookings) {
+            return <div/>
+        }
+        const booking1 = this.state.data.bookings[0]
+        const booking2 = this.state.data.bookings[1]
+
+        return (
+            <div className={"Bookings row section"}>
+                <Booking booking={booking1} styles={"offset-md-2 mb-xs-5 mb-sm-5"}/>
+                <Booking booking={booking2}/>
+            </div>
+        )
+    }
+
     render() {
         return (
-            <div className='container'>
+            <div className={"container-fluid p-0"}>
                 <Menu/>
                 <Header/>
-                <SectionTitle text='Nous'/>
-                <SectionAbout/>
-                <SectionTitle text='Le Gîte'/>
-                <SectionGite/>
-                <ButtonImg text="Galerie"/>
-                <SectionTitle text='Extension'/>
-                <SectionExtension/>
-                <ButtonImg text="Galerie"/>
-                <SectionTitle text='Tarifs'/>
-                <SectionBooking/>
-                {this.getActivities()}
-                <SectionTitle text='Contact'/>
-                <SectionContact/>
-
+                <div className='container'>
+                    <HeaderMobile/>
+                    <SectionTitle text='Nous'/>
+                    <SectionAbout/>
+                    <SectionTitle text='Le Gîte'/>
+                    <SectionGite/>
+                    <SectionTitle text='Extension'/>
+                    <SectionExtension/>
+                    <SectionTitle text='Tarifs'/>
+                    {this.getBookings()}
+                    {this.getActivities()}
+                    <SectionTitle text='Contact'/>
+                    <SectionContact/>
+                </div>
             </div>
         )
     }
