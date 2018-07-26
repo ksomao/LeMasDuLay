@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4993fe2e-aea8-4625-9360-191171c09051" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/components/home_page/Booking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/booking_page/Calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/booking_page/FormBooking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/screens/Booking.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/home_page/ButtonImg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/home_page/ButtonImg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/home_page/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/home_page/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/home_page/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/home_page/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/home_page/SectionAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/home_page/SectionAbout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/home_page/SectionBooking.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/home_page/SectionContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/home_page/SectionContact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/home_page/SectionExtension.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/home_page/SectionExtension.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/home_page/SectionGite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/home_page/SectionGite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/home_page/SectionTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/home_page/SectionTitle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/screens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/screens/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/screens/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/screens/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/Variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/Variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/screens/Home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="805">
-              <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+              <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -82,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionContact.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
-              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -94,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Booking.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -106,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -114,8 +105,8 @@
       <file leaf-file-name="App.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sass/App.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+            <state relative-caret-position="222">
+              <caret line="256" lean-forward="true" selection-start-line="256" selection-end-line="256" />
             </state>
           </provider>
         </entry>
@@ -305,12 +296,12 @@
       <workItem from="1532512697542" duration="8508000" />
       <workItem from="1532528221153" duration="9014000" />
       <workItem from="1532548257517" duration="1907000" />
-      <workItem from="1532604893633" duration="14587000" />
+      <workItem from="1532604893633" duration="15455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59256000" />
+    <option name="totallyTimeSpent" value="60124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="851" y="5" width="1036" height="731" extended-state="0" />
@@ -321,7 +312,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32869378" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32976446" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32871974" />
       <window_info anchor="bottom" id="RNConsole" order="9" weight="0.32976446" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.27356556" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -642,7 +633,7 @@
     <entry file="file://$PROJECT_DIR$/src/app/screens/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
-          <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -659,14 +650,14 @@
     <entry file="file://$PROJECT_DIR$/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Booking.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -700,7 +691,7 @@
     <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionContact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -709,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/App.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="222">
+          <caret line="256" lean-forward="true" selection-start-line="256" selection-end-line="256" />
         </state>
       </provider>
     </entry>
