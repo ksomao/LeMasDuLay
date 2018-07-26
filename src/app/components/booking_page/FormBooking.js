@@ -2,129 +2,95 @@ import React from 'react'
 const FormBooking = () => {
   return (
 
-    <
-    div className = 'Form' >
+    <div className = 'Form' >
+    <div className = 'FormDescription' >
 
-    <
-    div className = 'FormDescription' >
+    <div className='Book'>
+    <p>Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes.
+    Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes.</p>
+</div>
 
-
-    <
-    form name = "form"
+    <form name = "form"
     method = "post"
     action = "https://formspree.io/delphineBraive@gmail.com" >
 
-    <
-    div className = 'row' >
-    <
-    input type = "text"
+
+    <div className = 'row' >
+    <input type = "text"
     name = "last_name"
     placeholder = "Nom"
     required className = 'col-xs-12 col-sm-6' / >
-    <
-    input type = "text"
+
+    <input type = "text"
     name = "first_name"
     placeholder = "Prénom"
     required className = 'col-xs-12 col-sm-6' / >
-    <
-    /div>
 
-    <
-    div className = 'row' >
-    <
-    input type = "phone"
+    </div>
+
+    <div className = 'row' >
+    <input type = "phone"
     name = "phone"
     placeholder = "Portable"
     required className = 'col-xs-12 col-sm-6' / >
-    <
-    input type = "email"
+
+    <input type = "email"
     name = "email"
     placeholder = "Email"
     required className = 'col-xs-12 col-sm-6' / >
-    <
-    /div>
+    </div>
 
-    <
-    div className = 'row' >
-    <
-    input type = "text"
+    <div className = 'row' >
+    <input type = "text"
     name = "adresse"
     placeholder = "Adresse"
     required className = 'col-xs-12 col-sm-6' / >
-    <
-    input type = "numer"
+
+    <input type = "numer"
     name = "codepostal"
     placeholder = "Code Postal"
     required className = 'col-xs-12 col-sm-6' / >
-    <
-    /div>
+    </div>
 
-    <
-    div className = 'row' >
-    <
-    input type = "Number"
+    <div className = 'row' >
+    <input type = "Date"
     name = "date"
     placeholder = "Date d'arrivée"
     required className = 'col-xs-12 col-sm-6' / >
-    <
-    input type = "Number"
+    <input type = "Number"
     name = "date"
-    placeholder = "Date de départ"
+    placeholder = "Nombre de nuit"
     required className = 'col-xs-12 col-sm-6' / >
-    <
-    /div>
+    </div>
 
-    <
-    div className = 'row' >
-    <
-    input type = "Number"
+    <div className = 'row' >
+    <input type = "Number"
     name = "date"
     placeholder = "Nombre d'adulte"
     required className = 'col-xs-12 col-sm-6' / >
-    <
-    input type = "Number"
+    <input type = "Number"
     name = "date"
     placeholder = "Nombre d'enfants"
     required className = 'col-xs-12 col-sm-6' / >
-    <
-    /div>
-
-    <
-    div className = 'row' >
-    <
-    input type = "checkbox"
+    </div>
+    <div className ='choice'>
+    <div className = 'row' >
+    <input type = "checkbox"
     id = 'Mas1' / >
-    <
-    label
-    for = "Mas1" > Mas pour 4 personnes < /label> <
-    input type = "checkbox"
-    id = 'Mas2' / >
-    <
-    label
-    for = "Mas1" > Mas pour 6 personnes < /label> <
-    /div>
+    <label for = "Mas1" > Mas pour 4 personnes < /label>
+    <input type = "checkbox" id = 'Mas2' / >
+    <label for = "Mas1" > Mas pour 6 personnes < /label>
+    </div>
+    </div>
 
-    <
-    div className = 'row' >
-    <
-    textarea name = "comments"
+    <div className = 'row' >
+    <textarea name = "comments"
     placeholder = "MESSAGE"
-    required className = 'col-xs-12' > < /textarea> <
-    /div>
-
-    <
-    div className = 'row' >
-
-    <
-    input type = "checkbox"
-    id = 'conditions' / >
-    <
-    label
-    for = "Mas1" > J ai lu et accepté les conditions < /label> <
-    /div> <
-    /form> <
-    /div> <
-    /div>
+    required className = 'col-xs-12' > < /textarea>
+    </div>
+    </form>
+    </div>
+    </div>
 
   )
 }
