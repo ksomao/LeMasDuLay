@@ -1,10 +1,10 @@
 import React from 'react'
 import {Loading} from 'element-react'
 
-const Header = () => {
+const HeaderMobile = () => {
     return (
-        <div className='Header'>
-            <div className='HeaderDescription d-none d-sm-block'>
+        <div className='HeaderMobile'>
+            <div className='HeaderMobileDescription d-sm-none d-xs-block text-center'>
                 <h2>Le Mas du Lay</h2>
                 <p>est un coup de cœur immédiat. Pour les vieilles pierres dorées des bâtiments, pour la vue sur la
                     vallée, sa situation bien cachée
@@ -17,4 +17,4 @@ const Header = () => {
 }
 
 
-export default Header
+export default HeaderMobile
