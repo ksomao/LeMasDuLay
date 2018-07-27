@@ -1,6 +1,7 @@
 import React from 'react'
 import {Loading} from 'element-react'
 import ButtonImg from "./ButtonImg";
+import {Link} from "react-router-dom";
 
 const SectionExtension = () => {
     return (
@@ -16,9 +17,10 @@ const SectionExtension = () => {
                     Elle a sa propre salle de bain et toilette. Le
                     lit king size est séparable. Cette extension vous offre une capacité de 6 personnes au total.
                 </p>
-                <div className={"row"}>
+
+                <Link to="/Galerie">
                     <ButtonImg text="Galerie" styles={"m-auto m-lg-2 mt-lg-5"}/>
-                </div>
+                </Link>
             </div>
         </div>
     )

@@ -1,8 +1,11 @@
 import React from 'react'
 import ButtonImg from "./ButtonImg";
+import {Link} from "react-router-dom";
 
 const Booking = ({booking,styles}) => {
     return (
+
+
         <div className={`col-xs-12  col-lg-5 text-center ${styles}`}>
             <div className="content Booking p-4">
                 <h3>{booking.title}</h3>
@@ -13,7 +16,9 @@ const Booking = ({booking,styles}) => {
                 <p>{booking.date2}</p>
                 <p>{booking.price2}</p>
                 <p>{booking.minNight}</p>
-                <ButtonImg text={"Réserver"} styles={"book-btn"}/>
+                <Link to="/Booking">
+                    <ButtonImg text={"Réserver"} styles={"book-btn"}/>
+                </Link>
             </div>
         </div>
     )
