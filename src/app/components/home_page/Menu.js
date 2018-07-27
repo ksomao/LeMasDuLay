@@ -9,8 +9,8 @@ class Menu extends Component {
 
     render() {
         return (
-            <div className={"d-flex bg-light justify-content-lg-center"}>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light menu">
+            <div className={"d-flex bg-white justify-content-lg-center fixed-top"}>
+                <nav className="navbar navbar-expand-lg navbar-light bg-white menu">
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"/>
