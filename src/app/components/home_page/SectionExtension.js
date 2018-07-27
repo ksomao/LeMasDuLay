@@ -12,12 +12,12 @@ const SectionExtension = () => {
                 <p>Le Grand Mas du Lay est une extension du Mas du Lay et propose en plus une grande chambre pour deux
                     personnes située dans une dépendance en face du gîte.
                 </p>
-                <p>
+                <p className={" mb-lg-5"}>
                     Elle a sa propre salle de bain et toilette. Le
                     lit king size est séparable. Cette extension vous offre une capacité de 6 personnes au total.
                 </p>
                 <div className={"row"}>
-                    <ButtonImg text="Galerie" styles={"m-auto m-lg-2"}/>
+                    <ButtonImg text="Galerie" styles={"m-auto m-lg-2 mt-lg-5"}/>
                 </div>
             </div>
         </div>
