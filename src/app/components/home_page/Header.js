@@ -3,8 +3,8 @@ import {Loading} from 'element-react'
 
 const Header = () => {
     return (
-        <div className='Header'>
-            <div className='HeaderDescription d-none d-sm-block'>
+        <div className='Header d-none d-lg-block'>
+            <div className='HeaderDescription '>
                 <h2>Le Mas du Lay</h2>
                 <p>est un coup de cœur immédiat. Pour les vieilles pierres dorées des bâtiments, pour la vue sur la
                     vallée, sa situation bien cachée

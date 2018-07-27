@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Booking from './Booking'
+import Home from "./Home";
 
 const App = props => {
 	return (
@@ -9,7 +10,7 @@ const App = props => {
 			<Switch>
 				<Route
 					path='*'
-					component={Booking} /> 
+					component={Home} />
 			</Switch>
 		</Router>
 	)

@@ -54,7 +54,7 @@ class Home extends React.Component {
 
         return (
             <div className={"Bookings row section"}>
-                <Booking booking={booking1} styles={"offset-md-2 mb-xs-5 mb-sm-5"}/>
+                <Booking booking={booking1} styles={"offset-lg-1 mb-5 mb-lg-0"}/>
                 <Booking booking={booking2}/>
             </div>
         )
@@ -65,8 +65,8 @@ class Home extends React.Component {
             <div className={"container-fluid p-0"}>
                 <Menu/>
                 <Header/>
+                <HeaderMobile/>
                 <div className='container'>
-                    <HeaderMobile/>
                     <SectionTitle text='Nous'/>
                     <SectionAbout/>
                     <SectionTitle text='Le Gîte'/>

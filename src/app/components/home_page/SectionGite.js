@@ -5,7 +5,7 @@ const SectionGite = () => {
     return (
 
         <div className='Gite row section'>
-            <div className='GiteDescription col-xs-12 col-lg-4 offset-lg-2 mt-3 mb-2'>
+            <div className='GiteDescription col-xs-12 col-lg-4 offset-lg-2 mt-3 mb-2 text-center text-lg-left'>
                 <p>Le Mas du Lay est une ancienne grange que nous avons aménagée. Elle est isolée du reste de la
                     propriété et dispose d’une terrasse privative ainsi qu’un accès direct à la piscine bordée d’une
                     vaste plage terrassée avec une vue à couper le souffle.</p>
@@ -13,10 +13,10 @@ const SectionGite = () => {
                     grand espace de nuit pour deux personnes et une chambre de deux personnes. La salle de bain et les
                     toilettes sont séparées. </p>
                 <div className={"mt-4 row"}>
-                    <ButtonImg text="Galerie"/>
+                    <ButtonImg text="Galerie" styles={"m-auto m-lg-2"}/>
                 </div>
             </div>
-            <div className='GiteImg col-xs-12  col-lg-5  '>
+            <div className='GiteImg col-xs-12  col-lg-5 order-first order-lg-2'>
                 <div className="img-container">
                     <img src="./images/Gite.jpg" alt="Gite_image" className={"img-fluid mh-75"}/>
                 </div>
