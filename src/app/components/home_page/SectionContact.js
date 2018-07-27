@@ -17,17 +17,21 @@ const SectionContact = () => {
                 <div className="Form">
                     <form name="contactform" method="post" action="">
                         <div className='row mb-3'>
-                            <input type="text" name="last_name" placeholder="Nom" required
-                                   className='col-xs-12 col-lg-6 form-control mb-3 mb-lg-0'/>
-                            <input type="text" name="first_name" placeholder="Prénom" required
-                                   className='col-xs-12 col-lg-6 form-control'/>
+                            <div className="form-group col-12 col-lg-6">
+                                <input type="text" name="last_name" placeholder="Nom" required
+                                       className='form-control'/>
+                            </div>
+                            <div className="form-group col-12 col-lg-6">
+                                <input type="text" name="first_name" placeholder="Prénom" required
+                                       className='form-control'/>
+                            </div>
                         </div>
-                        <div className='row mb-3'>
+                        <div className='col-12 p-0 mb-3'>
                             <input type="email" name="email" placeholder="Email" required
-                                   className='col-xs-12 col-lg-6 form-control'/>
+                                   className='form-control'/>
                         </div>
-                        <div className='row'>
-                            <textarea name="message" placeholder="Message" required className='col-xs-12 form-control'/>
+                        <div className='col-12 p-0'>
+                            <textarea name="message" placeholder="Message" required className='form-control' rows={8}/>
                         </div>
                     </form>
                 </div>

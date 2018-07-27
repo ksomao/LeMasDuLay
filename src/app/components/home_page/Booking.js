@@ -3,7 +3,7 @@ import ButtonImg from "./ButtonImg";
 
 const Booking = ({booking,styles}) => {
     return (
-        <div className={`col-xs-12  col-md-4 text-center ${styles}`}>
+        <div className={`col-xs-12  col-lg-5 text-center ${styles}`}>
             <div className="content Booking p-4">
                 <h3>{booking.title}</h3>
                 <h4> Basse saison </h4>
