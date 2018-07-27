@@ -3,6 +3,7 @@ const FormBooking = () => {
   return (
 
     <div className = 'Form' >
+    <h2> Demande de réservation </h2>
     <div className = 'FormDescription' >
 
     <div className='Book'>
@@ -84,8 +85,7 @@ const FormBooking = () => {
     </div>
 
     <div className = 'row' >
-    <textarea name = "comments"
-    placeholder = "MESSAGE"
+    <textarea name = "Message" placeholder = "MESSAGE"
     required className = 'col-xs-12' > < /textarea>
     </div>
     </form>
