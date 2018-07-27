@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
-    <meta name="description" content="Au cœur de l’Ardèche, le gite du Mas du Lay à une capacité de 6 personnes. Venez flâner au bord de la piscine attenant au gite. La vue à couper le souffle accompagnera vos repas." />
+    <meta name="description"
+          content="Au cœur de l’Ardèche, le gite du Mas du Lay à une capacité de 6 personnes. Venez flâner au bord de la piscine attenant au gite. La vue à couper le souffle accompagnera vos repas."/>
     <!--
     manifest.json provides metadata used when your web app is added to the
     homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
@@ -26,10 +28,10 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Opengraph -->
-    <meta property="og:title" content="Gîte Le Mas du Lay" />
-    <meta property="og:type" content="Gîte ardèche" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
+    <meta property="og:title" content="Gîte Le Mas du Lay"/>
+    <meta property="og:type" content="Gîte ardèche"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
 
     <title>Le Mas du Lay - Gîte</title>
 </head>
@@ -44,9 +46,17 @@
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.bundle.min.js"
         integrity="sha384-CS0nxkpPy+xUkNGhObAISrkg/xjb3USVCwy+0/NMzd5VxgY4CMCyTkItmy5n0voC"
         crossorigin="anonymous"></script>
+
+<script>
+    $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+</script>
 </body>
 
 </html>
