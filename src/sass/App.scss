@@ -14,10 +14,10 @@ body {
   background-color: $button_green;
   font-family: $p_font;
   font-size: $p_size;
-  /*height: 60px;
-  width: 204px;*/
+  height: 50px;
+  width: 160px;
   color: $p_color;
-  border: none;
+  border-radius: 2px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
@@ -44,7 +44,8 @@ body {
   background: transparent url("./images/Header.jpg") no-repeat center center fixed;
   width: 90%;
   height: 80vh;
-  margin: 0 auto;
+  border-radius: 4px;
+  margin: 80px auto 0;
   position: relative;
   background-size: cover;
 }
@@ -71,20 +72,19 @@ body {
   margin-right: -50px;
   top: 50%;
   transform: translateY(-50%);
+  h2 {
+    font-family: $title_font;
+    font-size: 60px;
+    line-height: 60px;
+    align: left;
+    letter-spacing: 15px;
+  }
 
-}
-
-.HeaderDescription h2 {
-  font-family: $title_font;
-  font-size: 60px;
-  line-height: 60px;
-  align: left;
-  letter-spacing: 15px;
-}
-
-.HeaderDescription p {
-  font-size: $p_size;
-  line-height: $p_ligneheight;
+  p {
+    margin-top: 20px;
+    font-size: $p_size;
+    line-height: 34px;
+  }
 }
 
 // About
@@ -118,9 +118,18 @@ body {
     max-height: 530px;
     overflow: hidden;
     img {
-      object-fit: contain;
+      object-fit: cover;
     }
   }
+}
+
+.Extension {
+  .GiteImg {
+    img {
+      object-fit: cover;
+    }
+  }
+
 }
 
 // Title
@@ -211,20 +220,20 @@ img {
   color: #999;
   letter-spacing: 1px;
   background: #F2F2F2;
-  border:2px solid #FFF;
-  margin-bottom:10px;
-  -webkit-transition:all .1s ease-in-out;
-  -moz-transition:all .1s ease-in-out;
-  -ms-transition:all .1s ease-in-out;
-  -o-transition:all .1s ease-in-out;
-  transition:all .1s ease-in-out;
+  border: 2px solid #FFF;
+  margin-bottom: 10px;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 .FormDescription form input:focus,
 .FormDescription form textarea:focus {
 
-  border:2px solid $cadre_green;
-  color:black;
+  border: 2px solid $cadre_green;
+  color: black;
 
 }
 
@@ -234,27 +243,28 @@ img {
 }
 
 .FormDescription form .required {
-  color:black;
+  color: black;
 }
 
-
-.FormDescription .choice{
+.FormDescription .choice {
   width: 100%;
   font-size: 12px;
-    color: #999;
-    letter-spacing: 1px;
-    border: 2px solid #FFF;
+  color: #999;
+  letter-spacing: 1px;
+  border: 2px solid #FFF;
 
 }
 
-.FormDescription .choice input{
+.FormDescription .choice input {
   margin-left: 60px;
 }
-.FormDescription .choice label{
+
+.FormDescription .choice label {
   margin-left: 15px;
   margin-top: 5px;
 }
-.FormDescription .Book p{
+
+.FormDescription .Book p {
   font-family: $p_font;
   font-size: 14px;
   color: $p_color;
@@ -288,4 +298,16 @@ img {
 
 .FormDescription form .required {
   color: black;
+}
+
+
+
+.Alentours{
+  h3{
+    font-weight: bold;
+    line-height: 33px;
+    font-size: 16px;
+    text-align: center;
+    color: #4F4F4F;
+  }
 }
