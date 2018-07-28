@@ -25,7 +25,3 @@ const Booking = ({booking,styles}) => {
 }
 
 export default Booking
-
-
-
-

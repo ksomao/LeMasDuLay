@@ -13,14 +13,14 @@ const SectionGite = () => {
                 <p>D’une capacité de 4 personnes, l’espace est divisé en deux étages. Au premier, vous trouverez un
                     grand espace de nuit pour deux personnes et une chambre de deux personnes. La salle de bain et les
                     toilettes sont séparées. </p>
-                <div className={"mt-4 row"}>
+                <div className={"mt-4 row d-flex justify-content-center d-lg-block"}>
                     <Link to="/Galerie">
                         <ButtonImg text="Galerie" styles={"m-auto m-lg-2"}/>
                     </Link>
-
                 </div>
             </div>
             <div className='GiteImg col-xs-12  col-lg-5 order-first order-lg-2'>
+                <div className="carre" />
                 <img src="./images/Gite.jpg" alt="Gite_image" className={"img-fluid mh-75"}/>
             </div>
         </div>

@@ -1,4 +1,6 @@
 import React from 'react'
+import ButtonImg from "./ButtonImg"
+
 const FormBooking = () => {
   return (
 
@@ -87,6 +89,7 @@ const FormBooking = () => {
     <textarea name = "Message" placeholder = "MESSAGE"
     required className = 'col-xs-12' > < /textarea>
     </div>
+        <ButtonImg text={"Envoyer"} styles={"book-btn"}/>
     </form>
     </div>
     </div>
