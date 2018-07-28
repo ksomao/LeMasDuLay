@@ -1,5 +1,6 @@
 import React from 'react'
 import ButtonImg from "./ButtonImg"
+import {Link} from "react-router-dom";
 
 const SectionGite = () => {
     return (
@@ -13,13 +14,14 @@ const SectionGite = () => {
                     grand espace de nuit pour deux personnes et une chambre de deux personnes. La salle de bain et les
                     toilettes sont séparées. </p>
                 <div className={"mt-4 row"}>
-                    <ButtonImg text="Galerie" styles={"m-auto m-lg-2"}/>
+                    <Link to="/Galerie">
+                        <ButtonImg text="Galerie" styles={"m-auto m-lg-2"}/>
+                    </Link>
+
                 </div>
             </div>
             <div className='GiteImg col-xs-12  col-lg-5 order-first order-lg-2'>
-                <div className="img-container">
-                    <img src="./images/Gite.jpg" alt="Gite_image" className={"img-fluid mh-75"}/>
-                </div>
+                <img src="./images/Gite.jpg" alt="Gite_image" className={"img-fluid mh-75"}/>
             </div>
         </div>
     )

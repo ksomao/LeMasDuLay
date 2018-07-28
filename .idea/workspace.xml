@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="4993fe2e-aea8-4625-9360-191171c09051" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
@@ -15,6 +16,9 @@
       <change beforePath="$PROJECT_DIR$/src/app/components/home_page/SectionExtension.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/home_page/SectionExtension.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/App.scss" afterDir="false" />
     </list>
+=======
+    <list default="true" id="4993fe2e-aea8-4625-9360-191171c09051" name="Default" comment="" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +42,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/screens/Home.js">
+      <file leaf-file-name="SectionAbout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionAbout.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="-11">
               <caret line="22" column="16" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="16" />
@@ -51,10 +56,15 @@
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="184">
+              <caret line="9" column="106" lean-forward="true" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="SectionAbout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionAbout.js">
@@ -77,19 +87,33 @@
             <state relative-caret-position="253">
               <caret line="12" column="14" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="14" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Menu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Menu.js">
+=======
+      <file leaf-file-name="Booking.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Booking.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="218">
+              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/screens/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="HeaderMobile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/components/home_page/HeaderMobile.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,6 +123,13 @@
 =======
             <state relative-caret-position="218">
               <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+=======
+      <file leaf-file-name="SectionGite.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionGite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="13" column="113" lean-forward="true" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -120,13 +151,19 @@
       <file leaf-file-name="SectionExtension.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionExtension.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="405">
               <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+            <state relative-caret-position="23">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="web-forms.rnc" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
@@ -140,10 +177,18 @@
             <state relative-caret-position="23">
               <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+      <file leaf-file-name="SectionTitle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionTitle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="Booking.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Booking.js">
@@ -160,6 +205,25 @@
             <state relative-caret-position="414">
               <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+      <file leaf-file-name="Galerie.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/screens/Galerie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
             </state>
           </provider>
         </entry>
@@ -168,16 +232,22 @@
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="236">
               <caret line="296" column="1" lean-forward="true" selection-start-line="296" selection-start-column="1" selection-end-line="296" selection-end-column="1" />
 =======
             <state relative-caret-position="345">
               <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+            <state relative-caret-position="134">
+              <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="ButtonImg.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/home_page/ButtonImg.js">
@@ -200,6 +270,16 @@
             <state relative-caret-position="-5859">
               <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+      <file leaf-file-name="SectionContact.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionContact.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-486">
+              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
             </state>
           </provider>
         </entry>
@@ -241,14 +321,13 @@
         <option value="$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.dev.js" />
         <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/app/components/homes/StateLessComp.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/app/components/home_page/Activity.js" />
         <option value="$PROJECT_DIR$/src/app/components/home_page/SectionBooking.js" />
         <option value="$PROJECT_DIR$/src/app/content.json" />
         <option value="$PROJECT_DIR$/src/app/components/home_page/SectionTitle.js" />
         <option value="$PROJECT_DIR$/src/app/components/home_page/ButtonImg.js" />
         <option value="$PROJECT_DIR$/src/app/components/booking_page/FormBooking.js" />
         <option value="$PROJECT_DIR$/src/app/components/homes/Menu.js" />
+<<<<<<< HEAD
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/app/components/home_page/SectionGite.js" />
@@ -264,19 +343,27 @@
         <option value="$PROJECT_DIR$/src/app/components/home_page/HeaderMobile.js" />
 =======
         <option value="$PROJECT_DIR$/src/app/components/home_page/SectionGite.js" />
+=======
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
         <option value="$PROJECT_DIR$/src/app/components/home_page/Header.js" />
         <option value="$PROJECT_DIR$/src/app/screens/Home.js" />
-        <option value="$PROJECT_DIR$/src/app/screens/App.js" />
-        <option value="$PROJECT_DIR$/src/app/components/home_page/SectionContact.js" />
         <option value="$PROJECT_DIR$/src/app/components/home_page/Menu.js" />
         <option value="$PROJECT_DIR$/src/app/components/home_page/HeaderMobile.js" />
-        <option value="$PROJECT_DIR$/src/app/components/home_page/SectionAbout.js" />
         <option value="$PROJECT_DIR$/src/app/components/home_page/Booking.js" />
-        <option value="$PROJECT_DIR$/src/app/components/home_page/SectionExtension.js" />
+        <option value="$PROJECT_DIR$/src/app/components/home_page/Activity.js" />
         <option value="$PROJECT_DIR$/src/sass/App.scss" />
-        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/app/screens/App.js" />
+        <option value="$PROJECT_DIR$/src/app/components/home_page/SectionAbout.js" />
+        <option value="$PROJECT_DIR$/src/app/components/home_page/SectionExtension.js" />
+        <option value="$PROJECT_DIR$/src/app/components/home_page/SectionGite.js" />
         <option value="$PROJECT_DIR$/src/app/screens/Galerie.js" />
+<<<<<<< HEAD
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/app/components/home_page/SectionContact.js" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
       </list>
     </option>
   </component>
@@ -341,6 +428,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="home_page" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -349,8 +439,11 @@
               <item name="LeMasDuLay" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
 =======
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
               <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -362,10 +455,14 @@
   </component>
   <component name="PropertiesComponent">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="SearchEverywhereHistoryKey" value="mobi&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/HeaderMobile.js&#10;App&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/sass/App.scss&#10;home&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;Menu&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/Menu.js&#10;butt&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/ButtonImg.js&#10;A&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/sass/App.scss&#10;Men&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/Menu.js&#10;index&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/public/index.html&#10;app&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/App.js&#10;hom&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;ho&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;H&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;Hom&#9;null&#9;null&#10;Home&#9;null&#9;null&#10;web&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-scripts/config/webpack.config.dev.js&#10;wecba&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-redux-form/webpack.config.base.js&#10;webpac&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-scripts/config/webpack.config.dev.js&#10;webp&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-redux-form/webpack.config.prod.js&#10;webc&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-redux-form/webpack.config.base.js" />
 =======
     <property name="SearchEverywhereHistoryKey" value="gal&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Galerie.js&#10;inde&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/public/index.html&#10;App&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/sass/App.scss&#10;sec&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/SectionExtension.js&#10;index&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/public/index.html&#10;Home&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;mobi&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/HeaderMobile.js&#10;home&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;Menu&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/Menu.js&#10;butt&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/ButtonImg.js&#10;A&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/sass/App.scss&#10;Men&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/Menu.js&#10;app&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/App.js&#10;hom&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;ho&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;H&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;Hom&#9;null&#9;null&#10;web&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-scripts/config/webpack.config.dev.js&#10;wecba&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-redux-form/webpack.config.base.js&#10;webpac&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-scripts/config/webpack.config.dev.js&#10;webp&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-redux-form/webpack.config.prod.js&#10;webc&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-redux-form/webpack.config.base.js" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+    <property name="SearchEverywhereHistoryKey" value="conta&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/SectionContact.js&#10;inde&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/index.js&#10;app&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/App.js&#10;Hom&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;Ap&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/sass/App.scss&#10;home&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;git&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/SectionGite.js&#10;gal&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Galerie.js&#10;App&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/sass/App.scss&#10;sec&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/SectionExtension.js&#10;index&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/public/index.html&#10;Home&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;mobi&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/HeaderMobile.js&#10;Menu&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/Menu.js&#10;butt&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/ButtonImg.js&#10;A&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/sass/App.scss&#10;Men&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/components/home_page/Menu.js&#10;hom&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;ho&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;H&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/src/app/screens/Home.js&#10;web&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-scripts/config/webpack.config.dev.js&#10;wecba&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-redux-form/webpack.config.base.js&#10;webpac&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-scripts/config/webpack.config.dev.js&#10;webp&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-redux-form/webpack.config.prod.js&#10;webc&#9;FILE&#9;file://D:/laragoon/www/LeMasDuLay/node_modules/react-redux-form/webpack.config.base.js" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -411,19 +508,27 @@
       <workItem from="1532548257517" duration="1907000" />
       <workItem from="1532604893633" duration="16856000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1532664676675" duration="15834000" />
 =======
       <workItem from="1532664676675" duration="19345000" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+      <workItem from="1532664676675" duration="22289000" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="77359000" />
 =======
     <option name="totallyTimeSpent" value="80870000" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+    <option name="totallyTimeSpent" value="83814000" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
   </component>
   <component name="ToolWindowManager">
     <frame x="887" y="23" width="1036" height="808" extended-state="0" />
@@ -435,6 +540,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32869378" />
       <window_info anchor="bottom" id="Run" order="2" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.29007635" />
       <window_info anchor="bottom" id="RNConsole" order="9" weight="0.32871974" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25204918" />
@@ -443,6 +549,11 @@
       <window_info anchor="bottom" id="RNConsole" order="9" weight="0.32871974" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.3043033" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28549618" />
+      <window_info anchor="bottom" id="RNConsole" order="9" weight="0.32871974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3043033" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32977098" />
@@ -456,28 +567,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25204918" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="RNConsole" order="9" weight="0.32871974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29007635" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32869378" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -622,22 +711,8 @@
     <entry file="file://$PROJECT_DIR$/src/app/screens/Root.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/bicycle.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Activity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/content.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -700,6 +775,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/app/screens/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -738,6 +814,8 @@
         <state relative-caret-position="115">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
 =======
+=======
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
     <entry file="file://$PROJECT_DIR$/public/images/Arrow.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -781,6 +859,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/app/screens/App.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -838,17 +917,25 @@
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
 =======
     <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionContact.js">
+=======
+    <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="460">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Menu.js">
+    <entry file="file://$PROJECT_DIR$/src/app/screens/Booking.js">
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="460">
           <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
@@ -869,11 +956,26 @@
           <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
 =======
           <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+=======
+        <state relative-caret-position="943">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/screens/Home.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="506">
           <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
@@ -895,6 +997,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+=======
+        <state>
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Booking.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -903,6 +1016,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionAbout.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="115">
           <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
 =======
@@ -910,33 +1024,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="12" column="14" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="14" />
+=======
+        <state relative-caret-position="184">
+          <caret line="9" column="106" lean-forward="true" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/App.scss">
+    <entry file="file://$PROJECT_DIR$/src/app/screens/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5859">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="267">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/screens/Booking.js">
+    <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionGite.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="23">
           <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+        <state relative-caret-position="198">
+          <caret line="13" column="113" lean-forward="true" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionExtension.js">
+    <entry file="file://$PROJECT_DIR$/src/app/screens/Galerie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="290">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/home_page/Booking.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="-11">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="16" />
@@ -944,12 +1074,17 @@
         <state relative-caret-position="218">
           <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/sass/App.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -963,18 +1098,42 @@
         <state relative-caret-position="230">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
 =======
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+=======
+    <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionTitle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+        <state relative-caret-position="92">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/screens/Galerie.js">
+    <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionExtension.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/home_page/SectionContact.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="414">
           <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
 >>>>>>> 036208e7ec00fca889609a3797f13d58bdb007ca
+=======
+        <state relative-caret-position="-486">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+>>>>>>> 9366f8eaa0ce9f677662dcb09c7d89f33d224d52
         </state>
       </provider>
     </entry>

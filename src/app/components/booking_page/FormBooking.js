@@ -3,7 +3,6 @@ const FormBooking = () => {
   return (
 
     <div className = 'Form' >
-    <h2> Demande de réservation </h2>
     <div className = 'FormDescription' >
 
     <div className='Book'>

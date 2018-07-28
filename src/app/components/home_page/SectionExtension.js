@@ -1,5 +1,4 @@
 import React from 'react'
-import {Loading} from 'element-react'
 import ButtonImg from "./ButtonImg";
 import {Link} from "react-router-dom";
 

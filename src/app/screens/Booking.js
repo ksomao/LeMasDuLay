@@ -1,6 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import FormBooking from '../components/booking_page/FormBooking'
+import SectionTitle from "../components/home_page/SectionTitle";
 
 class Booking extends React.Component {
     constructor(props) {
@@ -14,6 +15,7 @@ class Booking extends React.Component {
 render() {
         return (
             <div className='container'>
+            <SectionTitle text={"Réservations"}/>
             <FormBooking/>
             </div>
         )
