@@ -22,7 +22,7 @@ const SectionContact = () => {
                 </div>
                 <div className="Form">
                     <form name="contactform" method="post" action="">
-                        <div className='row mb-3'>
+                        <div className='row mb-0 mb-lg-3'>
                             <div className="form-group col-12 col-lg-6">
                                 <input type="text" name="last_name" placeholder="Nom" required
                                        className='form-control'/>

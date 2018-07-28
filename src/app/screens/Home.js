@@ -35,7 +35,7 @@ class Home extends React.Component {
         }
         return (
             <div className={"Alentours"}>
-                <SectionTitle text={"Alentours"}/>
+                <SectionTitle text={"Alentours"} styles={"AlentoursTop"} />
                 <div className="activities mt-5 d-flex flex-column align-items-center ">
                     {this.state.data.activities.map((activity, index) => (
                         <Activity activity={activity} key={index}/>
@@ -67,17 +67,19 @@ class Home extends React.Component {
                 <Header/>
                 <HeaderMobile/>
                 <div className='container'>
-                    <SectionTitle text='Nous'/>
+                    <SectionTitle text='Nous' styles={"AboutTop"}/>
                     <SectionAbout/>
-                    <SectionTitle text='Le Gîte'/>
+                    <SectionTitle text='Le Gîte' styles={"GiteTop"}/>
                     <SectionGite/>
-                    <SectionTitle text='Extension'/>
+                    <SectionTitle text='Extension' styles={"ExtensionTop"}/>
                     <SectionExtension/>
-                    <SectionTitle text='Tarifs'/>
+                    <SectionTitle text='Tarifs' styles={"TarifsTop"}/>
                     {this.getBookings()}
                     {this.getActivities()}
-                    <SectionTitle text='Contact'/>
+                    <SectionTitle text='Contact' styles={"ContactTop"}/>
                     <SectionContact/>
+                    <div className="firstForm"/>
+                    <div className="secondForm"/>
                 </div>
             </div>
         )
