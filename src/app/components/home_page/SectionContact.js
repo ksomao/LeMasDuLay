@@ -1,4 +1,5 @@
 import React from 'react'
+import ButtonImg from "./ButtonImg"
 import {Loading} from 'element-react'
 
 const SectionContact = () => {
@@ -21,7 +22,7 @@ const SectionContact = () => {
                         réponderons dans les plus brefs délais.</p>
                 </div>
                 <div className="Form">
-                    <form name="contactform" method="post" action="">
+                    <form name="contactform" method="post" action="https://formspree.io/delphineBraive@gmail.com">
                         <div className='row mb-0 mb-lg-3'>
                             <div className="form-group col-12 col-lg-6">
                                 <input type="text" name="last_name" placeholder="Nom" required
@@ -39,7 +40,9 @@ const SectionContact = () => {
                         <div className='col-12 p-0'>
                             <textarea name="message" placeholder="Message" required className='form-control' rows={8}/>
                         </div>
+                        <ButtonImg text={"Envoyer"} styles={"contact-btn"} onClick= { e => e.preventDefault() }/>
                     </form>
+
                 </div>
             </div>
         </div>

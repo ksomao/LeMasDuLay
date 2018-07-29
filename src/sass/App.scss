@@ -1,3 +1,6 @@
+*{
+  box-shadow: none;
+}
 
 body {
   background-color: white;
@@ -230,7 +233,7 @@ img {
 
 .FormDescription {
 
-  width: 100%;
+  width: 80%;
   margin: 60px auto;
   padding: 40px;
   border: 3px solid $rond_green;
@@ -250,11 +253,6 @@ form{
   background: #F2F2F2;
   border: 2px solid #FFF;
   margin-bottom: 10px;
-  -webkit-transition: all .1s ease-in-out;
-  -moz-transition: all .1s ease-in-out;
-  -ms-transition: all .1s ease-in-out;
-  -o-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
 }
 
 form input:focus,
@@ -334,15 +332,17 @@ form textarea {
 
 // Contact
 .Contact{
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+
+  p{
+   margin-bottom: 0px;
+   color: $p_color;
+ }
 }
 .ContactImg img{
   margin-bottom: 20px;
 }
-.Contact p{
-  margin-bottom: 0px;
-  color: $p_color;
-}
+
 
 .ContactDescription{
   border: 4px solid #6FCF97;
@@ -363,6 +363,9 @@ form textarea {
   }
   input[type=email]{
     margin-top: -15px;
+  }
+  .contact-btn{
+    margin-bottom: -50px;
   }
 }
 
