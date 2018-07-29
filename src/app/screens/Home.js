@@ -35,7 +35,7 @@ class Home extends React.Component {
         }
         return (
             <div className={"Alentours"}>
-                <SectionTitle text={"Alentours"} styles={"AlentoursTop"} />
+                <SectionTitle text={"Alentours"} styles={"AlentoursTop"}/>
                 <div className="activities mt-5 d-flex flex-column align-items-center ">
                     {this.state.data.activities.map((activity, index) => (
                         <Activity activity={activity} key={index}/>
@@ -62,7 +62,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div className={"container-fluid p-0"}>
+            <div className={"container-fluid p-0"} style={{overflowX: 'hidden'}}>
                 <Menu/>
                 <Header/>
                 <HeaderMobile/>
