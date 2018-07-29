@@ -183,7 +183,6 @@ body {
       font-family: "Pompiere", serif;
       font-size: 65px;
       white-space: nowrap;
-
     }
   }
 }
@@ -193,7 +192,6 @@ body {
   font-size: $p_size;
   line-height: $p_ligneheight;
   color: $p_color;
-
 }
 
 .Booking {
@@ -232,14 +230,18 @@ img {
 
 .FormDescription {
 
-  width: 80%;
-  height: 100%;
+  width: 100%;
   margin: 60px auto;
-  padding: 50px;
+  padding: 40px;
   border: 3px solid $rond_green;
+
+form{
+  width: 100%;
+}
 
  form input,
  form textarea {
+
   height: 30px;
   padding: 5px 10px;
   font-size: 12px;
@@ -283,9 +285,11 @@ form textarea {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
+
 }
-.btn-container {
-  margin-top: -60%;
+.send-btn {
+  margin-bottom: -100px;
+  margin-left : 40%;
 }
 
 }
