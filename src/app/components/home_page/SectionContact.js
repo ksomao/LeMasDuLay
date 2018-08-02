@@ -16,7 +16,7 @@ const SectionContact = () => {
                 </div>
 
             </div>
-            <div className='ContactDescription col-xs-12  col-md-6'>
+            <div className='ContactDescription col-xs-12  col-lg-6'>
                 <div className='Contactform col-xs-12  col-lg-12 p-0'>
                     <p>Envie d’en savoir plus sur notre gîte ? N’hésitez pas à nous envoyer un message nous vous
                         réponderons dans les plus brefs délais.</p>
