@@ -4,9 +4,9 @@ import {Loading} from 'element-react'
 const HeaderMobile = () => {
     return (
         <div>
-            <div className='HeaderMobile d-lg-none'>
+            <div className='HeaderMobile d-lg-none pt-5'>
                 <div className='HeaderMobileDescription'/>
-                <h2>Le Mas du Lay</h2>
+                <h2 className={"text-center mt-5"}>Le Mas du Lay</h2>
             </div>
             <div className={"p-4 text-center d-lg-none"}>
                 <p> Le Mas du Lay est un coup de cœur immédiat. Pour les vieilles pierres dorées des bâtiments, pour la vue sur la

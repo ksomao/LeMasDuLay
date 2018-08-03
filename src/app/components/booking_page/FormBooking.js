@@ -1,9 +1,11 @@
 import React from 'react'
+import ButtonImg from "./ButtonImg"
+
 const FormBooking = () => {
   return (
 
-    <div className = 'Form' >
-    <div className = 'FormDescription' >
+    <div className = 'Form row' >
+    <div className = 'FormDescription row' >
 
     <div className='Book'>
     <p>Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes.
@@ -13,6 +15,7 @@ const FormBooking = () => {
     <form name = "form"
     method = "post"
     action = "https://formspree.io/delphineBraive@gmail.com" >
+
 
 
     <div className = 'row' >
@@ -58,18 +61,18 @@ const FormBooking = () => {
     placeholder = "Date d'arrivée"
     required className = 'col-xs-12 col-sm-6' / >
     <input type = "Number"
-    name = "date"
+    name = "night"
     placeholder = "Nombre de nuit"
     required className = 'col-xs-12 col-sm-6' / >
     </div>
 
     <div className = 'row' >
     <input type = "Number"
-    name = "date"
+    name = "adulte"
     placeholder = "Nombre d'adulte"
     required className = 'col-xs-12 col-sm-6' / >
     <input type = "Number"
-    name = "date"
+    name = "enfant"
     placeholder = "Nombre d'enfants"
     required className = 'col-xs-12 col-sm-6' / >
     </div>
@@ -84,10 +87,10 @@ const FormBooking = () => {
     </div>
 
     <div className = 'row' >
-    <textarea name = "comments"
-    placeholder = "MESSAGE"
+    <textarea name = "Message" placeholder = "MESSAGE"
     required className = 'col-xs-12' > < /textarea>
     </div>
+        <ButtonImg text={"Envoyer"} styles={"send-btn"} onClick= { e => e.preventDefault() }/>
     </form>
     </div>
     </div>
