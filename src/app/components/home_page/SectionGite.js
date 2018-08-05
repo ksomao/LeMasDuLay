@@ -20,7 +20,7 @@ const SectionGite = () => {
                 </div>
             </div>
             <div className='GiteImg col-xs-12  col-lg-5 order-first order-lg-2'>
-                <div className="carre" />
+                <div className="carre d-none d-md-block" />
                 <img src="./images/Gite.jpg" alt="Gite_image" className={"img-fluid mh-75"}/>
             </div>
         </div>

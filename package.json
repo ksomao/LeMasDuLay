@@ -9,6 +9,7 @@
         "cookie-parser": "^1.4.3",
         "element-react": "^1.4.5",
         "element-theme-default": "^1.4.13",
+        "extract-text-webpack-plugin": "^3.0.2",
         "react": "^15.6.0",
         "react-dom": "^15.6.0",
         "react-intl": "^2.4.0",

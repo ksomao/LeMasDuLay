@@ -1,6 +1,5 @@
-*{
+* {
   box-shadow: none;
-
 }
 
 body {
@@ -126,6 +125,11 @@ body {
 .Gite {
   .GiteImg {
     position: relative;
+    img{
+      max-height: 440px;
+      width: 100%;
+      object-fit: cover;
+    }
     .carre {
       z-index: -5;
       position: absolute;
@@ -160,23 +164,15 @@ body {
   color: $p_color;
 }
 
-.GiteImg {
-  .img-container {
-    max-height: 530px;
-    overflow: hidden;
-    img {
-      object-fit: cover;
-    }
-  }
-}
 
 .Extension {
   .GiteImg {
     img {
+      max-height: 480px;
       object-fit: cover;
+      width: 100%;
     }
   }
-
 }
 
 // Title
@@ -249,9 +245,9 @@ img {
   border: 3px solid $rond_green;
   margin: 15px;
 
-form{
-  width: 100%;
-}
+  form {
+    width: 100%;
+  }
 
   form input,
   form textarea {
@@ -377,38 +373,35 @@ form{
       margin-top: -15px;
     }
   }
-  .Form{
-    .btn{
+  .Form {
+    .btn {
       margin-top: -30px;
     }
   }
-  .contact-btn{
+  .contact-btn {
     margin-bottom: -85px;
   }
 }
 
-
-@media screen and (min-width: 960px){
-  .Contact{
-    .Form{
-      .contact-btn{
+@media screen and (min-width: 960px) {
+  .Contact {
+    .Form {
+      .contact-btn {
         margin-top: 35px;
       }
     }
   }
 }
 
-@media screen and (min-width: 1200px){
-  .Contact{
-    .Form{
-      .contact-btn{
+@media screen and (min-width: 1200px) {
+  .Contact {
+    .Form {
+      .contact-btn {
         margin-top: 35px;
       }
     }
   }
 }
-
-
 
 .firstForm {
   position: absolute;

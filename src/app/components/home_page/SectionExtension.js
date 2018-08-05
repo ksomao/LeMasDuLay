@@ -6,7 +6,7 @@ const SectionExtension = () => {
     return (
         <div className='Extension row section'>
             <div className='GiteImg col-xs-12  col-lg-5 offset-lg-1 mb-2 d-flex justify-content-center'>
-                <div className="carre" />
+                <div className="carre d-none d-md-block" />
                 <img src="./images/Extension.jpg" alt="Gite_image" className={"img-fluid"}/>
             </div>
             <div className='ExtensionDescription col-xs-12 col-lg-4 mt-3 text-center text-lg-left'>
@@ -18,7 +18,7 @@ const SectionExtension = () => {
                     lit king size est séparable. Cette extension vous offre une capacité de 6 personnes au total.
                 </p>
 
-                <Link to="/Galerie">
+                <Link to="/Extension_Galerie">
                     <ButtonImg text="Galerie" styles={"m-auto m-lg-2 mt-lg-5"}/>
                 </Link>
             </div>

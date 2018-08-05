@@ -3,7 +3,6 @@ const Calendar = () => {
     return(
       <div className='Dispo'>
       <h2> Vérifiez la disponibilité </h2>
-
     )
 }
 
