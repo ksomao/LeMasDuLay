@@ -1,11 +1,11 @@
 import React from 'react'
+import ButtonImg from "./ButtonImg"
 import {Loading} from 'element-react'
-import ButtonImg from "../booking_page/ButtonImg";
 
 const SectionContact = () => {
     return (
 
-        <div className='Contact row mb-5 section'>
+        <div className='Contact row section '>
             <div className='ContactImg col-12  col-lg-7 mb-4'>
                 <img src="./images/Vue_piscine.jpg" alt="Gite_image" className={"img-fluid"}/>
                 <div>
@@ -40,7 +40,7 @@ const SectionContact = () => {
                         <div className='col-12 p-0'>
                             <textarea name="message" placeholder="Message" required className='form-control' rows={8}/>
                         </div>
-                        <ButtonImg text="Envoyer" styles={"m-auto m-lg-2 mt-lg-5"}/>
+                        <ButtonImg text={"Envoyer"} styles={"contact-btn"} onClick= { e => e.preventDefault() }/>
                     </form>
                 </div>
             </div>

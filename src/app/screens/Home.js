@@ -62,7 +62,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div className={"container-fluid p-0"} style={{overflowX: 'hidden'}}>
+            <div className={"container-fluid p-0"}>
                 <Menu/>
                 <Header/>
                 <HeaderMobile/>
@@ -78,8 +78,8 @@ class Home extends React.Component {
                     {this.getActivities()}
                     <SectionTitle text='Contact' styles={"ContactTop"}/>
                     <SectionContact/>
-                    <div className="firstForm"/>
-                    <div className="secondForm"/>
+                {/*    <div className="firstForm"/>
+                    <div className="secondForm"/>*/}
                 </div>
             </div>
         )
