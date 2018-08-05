@@ -22,7 +22,7 @@ const SectionContact = () => {
                         réponderons dans les plus brefs délais.</p>
                 </div>
                 <div className="Form">
-                    <form name="contactform" method="post" action="https://formspree.io/delphineBraive@gmail.com">
+                    <form name="contactform" method="post" action="https://formspree.io/laure@masdulay.fr">
                         <div className='row mb-0 mb-lg-3'>
                             <div className="form-group col-12 col-lg-6">
                                 <input type="text" name="last_name" placeholder="Nom" required

@@ -5,6 +5,7 @@ const FormBooking = () => {
   return (
 
     <div className = 'Form row' >
+
     <div className = 'FormDescription row' >
 
     <div className='Book'>
@@ -14,7 +15,7 @@ const FormBooking = () => {
 
     <form name = "form"
     method = "post"
-    action = "https://formspree.io/delphineBraive@gmail.com" >
+    action = "https://formspree.io/laure@masdulay.fr" >
 
 
 
