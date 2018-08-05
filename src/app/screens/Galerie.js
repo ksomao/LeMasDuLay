@@ -36,9 +36,9 @@ class Galerie extends React.Component {
                        data-gallery="gallery" className="col-md-4 mb-4">
                         <img src="./images/Gite_05.jpg" className="img-fluid rounded"/>
                     </a>
-                    <a href="./images/Gite_07.jpg" data-toggle="lightbox"
+                    <a href="./images/Gite_20.jpg" data-toggle="lightbox"
                        data-gallery="gallery" className="col-md-4 mb-4">
-                        <img src="./images/Gite_07.jpg" className="img-fluid rounded"/>
+                        <img src="./images/Gite_20.jpg" className="img-fluid rounded"/>
                     </a>
                     <a href="./images/Gite_10.jpg" data-toggle="lightbox"
                        data-gallery="gallery" className="col-md-4 mb-4">

@@ -22,16 +22,14 @@ class SectionContact extends React.Component {
                             réponderons dans les plus brefs délais.</p>
                     </div>
                     <div className="Form">
-                        <form name="contactform" method="post" action="https://formspree.io/vinkeey@gmail.com">
+                        <form name="contactform" method="post" action="https://formspree.io/laure@masdulay.fr">
                             <div className='row mb-0 mb-lg-3 mb-3'>
                                 <div className="form-group col-12 col-lg-6">
                                     <input type="text" name="last_name" placeholder="Nom" required
-                                           ref={this.lname}
                                            className='form-control'/>
                                 </div>
                                 <div className="form-group col-12 col-lg-6">
                                     <input type="text" name="first_name" placeholder="Prénom" required
-                                           ref={this.fname}
                                            className='form-control'/>
                                 </div>
                             </div>
@@ -41,7 +39,6 @@ class SectionContact extends React.Component {
                             </div>
                             <div className='col-12 p-0'>
                             <textarea name="message" placeholder="Message" required className='form-control' rows={8}
-                                      ref={this.message}
                             />
                             </div>
                             <ButtonImg text={"Envoyer"} styles={"contact-btn"} onClick={(e) => e.preventDefault()}/>
@@ -50,11 +47,6 @@ class SectionContact extends React.Component {
                 </div>
             </div>
         )
-    }
-
-    sendEmail(e) {
-        e.preventDefault()
-        console.log(this.fname);
     }
 }
 
