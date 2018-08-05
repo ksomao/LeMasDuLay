@@ -3,7 +3,7 @@
     {
       "icon": "./images/panier.png",
       "title": "PRIVAS & SES MARCHES",
-      "text": "Privas est à une douzaine de kilomètre. Vous y trouverez de nombreux commerces comme la boutique bio, le magasin de la coopérative paysanne mais aussi des cafés et une office du tourisme. Les jours de marché sont les mercredis et samedis. "
+      "text": "Privas est à une douzaine de kilomètre. Vous y trouverez de nombreux commerces comme la boutique bio, le magasin de la coopérative paysanne, des cafés et une office du tourisme. Les jours de marché sont les mercredis et samedis. "
     },
     {
       "icon": "./images/kayak.png",
@@ -13,7 +13,7 @@
     {
       "icon": "./images/bicycle.png",
       "title": "LES RANDONNEES",
-      "text": "Les cyclistes pourront s’attaquer au plateau du Coiron ou encore à  l’Ardèchoise. Sans oublier le vélorail de la vallée du Dour et le parc d’accrobranche à Privas. Nous mettons à disposition des dépliants et des brochures actualisées chaque saison."
+      "text": "Les cyclistes pourront s’attaquer au plateau du Coiron ou encore à l’Ardèchoise, sans oublier le vélorail de la vallée du Dour. Découvrez aussi le parc d’accrobranche de Privas et plein d'autres activités à réaliser dans les alentours. Nous mettons à disposition des dépliants et des brochures actualisées chaque saison."
     }
   ],
   "bookings": [
@@ -35,5 +35,3 @@
     }
   ]
 }
-
-

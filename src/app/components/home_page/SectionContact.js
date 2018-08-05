@@ -13,6 +13,8 @@ class SectionContact extends React.Component {
                         <p>Hameau de Lay</p>
                         <p>07000 Pourchère</p>
                         <p>Fixe : +33 (0) 475299656</p>
+                        <a href="mailto:laure@masdulay.fr"> Laure@masdulay.fr</a>
+
                     </div>
 
                 </div>
@@ -45,7 +47,11 @@ class SectionContact extends React.Component {
                         </form>
                     </div>
                 </div>
+                <footer>
+                <p>© Le Mas du Lay - 2018 </p>
+                </footer>
             </div>
+
         )
     }
 }

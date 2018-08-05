@@ -9,8 +9,7 @@ const FormBooking = () => {
     <div className = 'FormDescription row' >
 
     <div className='Book'>
-    <p>Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes.
-    Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes.</p>
+    <p>Pour toute demande de réservation, merci de remplir le formulaire ci-dessous. Nous vous réponderons dans les plus brefs délais.</p>
 </div>
 
     <form name = "form"

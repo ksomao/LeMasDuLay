@@ -18,17 +18,25 @@ class GalerieExtension extends React.Component {
             <div className="container">
                 <SectionTitle text={"Extension"}/>
                 <div className="row">
-                    <a href="./images/Gite_02.jpg" data-toggle="lightbox"
+                    <a href="./images/extension4.jpg" data-toggle="lightbox"
                        data-gallery="gallery" className="col-md-4 mb-4">
-                        <img src="./images/Gite_02.jpg" className="img-fluid rounded"/>
+                        <img src="./images/extension4.jpg" className="img-fluid rounded"/>
                     </a>
-                    <a href="./images/Gite_03.jpg" data-toggle="lightbox"
+                    <a href="./images/extension3.jpg" data-toggle="lightbox"
                        data-gallery="gallery" className="col-md-4 mb-4">
-                        <img src="./images/Gite_03.jpg" className="img-fluid rounded"/>
+                        <img src="./images/extension3.jpg" className="img-fluid rounded"/>
                     </a>
-                    <a href="./images/Gite_04.jpg" data-toggle="lightbox"
+                    <a href="./images/extension1.jpg" data-toggle="lightbox"
                        data-gallery="gallery" className="col-md-4 mb-4">
-                        <img src="./images/Gite_04.jpg" className="img-fluid rounded"/>
+                        <img src="./images/extension1.jpg" className="img-fluid rounded"/>
+                    </a>
+                    <a href="./images/vue1.jpg" data-toggle="lightbox"
+                       data-gallery="gallery" className="col-md-4 mb-4">
+                        <img src="./images/vue1.jpg" className="img-fluid rounded"/>
+                    </a>
+                    <a href="./images/Piscine.jpg" data-toggle="lightbox"
+                       data-gallery="gallery" className="col-md-4 mb-4">
+                        <img src="./images/Piscine.jpg" className="img-fluid rounded"/>
                     </a>
                 </div>
             </div>

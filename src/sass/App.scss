@@ -1,5 +1,6 @@
 * {
   box-shadow: none;
+
 }
 
 body {
@@ -352,6 +353,11 @@ img {
 // Contact
 .Contact {
   max-height: 500px;
+  a{
+    color: $rond_green;
+    text-decoration: none;
+
+  }
   .ContactImg img {
     margin-bottom: 20px;
   }
@@ -387,7 +393,15 @@ img {
   .contact-btn {
     margin-bottom: -85px;
   }
+  footer{
+
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 30px;
+    font-size: 10px;
+  }
 }
+
 
 @media screen and (min-width: 960px) {
   .Contact {
