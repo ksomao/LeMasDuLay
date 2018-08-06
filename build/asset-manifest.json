@@ -1,9 +1,9 @@
 {
   "main.css": "static/css/main.e3088ee1.css",
   "main.css.map": "static/css/main.e3088ee1.css.map",
-  "main.js": "static/js/main.aa28fad8.js",
-  "main.js.map": "static/js/main.aa28fad8.js.map",
-  "static/media/element-icons.ttf?t=1472440741": "static/media/element-icons.b02bdc1b.ttf",
-  "static/media/element-icons.woff?t=1472440741": "static/media/element-icons.d2f69a92.woff",
-  "static/media/index.scss": "static/media/index.e19b9d90.scss"
+  "main.js": "static/js/main.a9c16536.js",
+  "main.js.map": "static/js/main.a9c16536.js.map",
+  "static\\media\\element-icons.ttf?t=1472440741": "static/media/element-icons.b02bdc1b.ttf",
+  "static\\media\\element-icons.woff?t=1472440741": "static/media/element-icons.d2f69a92.woff",
+  "static\\media\\index.scss": "static/media/index.c9b0ab57.scss"
 }
