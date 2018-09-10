@@ -12,11 +12,11 @@ class Booking extends React.Component {
         }
     }
 
-render() {
+    render() {
         return (
             <div className='container'>
-            <SectionTitle text={"Réservations"}/>
-            <FormBooking/>
+                <SectionTitle text={"Réservations"}/>
+                <FormBooking/>
             </div>
         )
     }

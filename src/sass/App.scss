@@ -50,6 +50,12 @@ body {
 
 // Header
 
+.activity {
+  p {
+    color: $p_color;
+  }
+}
+
 .Header {
   background: transparent url("./images/Header.jpg") no-repeat top center fixed;
   width: 90%;
@@ -61,11 +67,9 @@ body {
 }
 
 .HeaderMobile {
-  background: transparent url("./images/Header.jpg") no-repeat center center fixed;
   width: 90%;
-  height: 50vh;
   margin: 0 auto;
-  background-size: cover;
+  font-family: $title_font;
   h2 {
     font-family: Pompiere, monospace;
     font-style: normal;
@@ -108,6 +112,16 @@ body {
   }
 }
 
+.HeaderMobileDescription {
+  p {
+    font-family: $p_font;
+    margin-top: 20px;
+    color: $p_color;
+    font-size: $p_size;
+    line-height: 30px;
+  }
+}
+
 // About
 
 .About {
@@ -126,7 +140,7 @@ body {
 .Gite {
   .GiteImg {
     position: relative;
-    img{
+    img {
       max-height: 440px;
       width: 100%;
       object-fit: cover;
@@ -164,7 +178,6 @@ body {
   line-height: $p_ligneheight;
   color: $p_color;
 }
-
 
 .Extension {
   .GiteImg {
@@ -249,8 +262,6 @@ img {
   padding: 40px;
   border: 3px solid $rond_green;
   margin-bottom: 50px;
-
-
 
   form {
     width: 100%;
@@ -353,7 +364,7 @@ img {
 // Contact
 .Contact {
   max-height: 500px;
-  a{
+  a {
     color: $rond_green;
     text-decoration: none;
 
@@ -393,7 +404,7 @@ img {
   .contact-btn {
     margin-bottom: -85px;
   }
-  footer{
+  footer {
 
     margin: 0 auto;
     margin-top: 100px;
@@ -402,9 +413,11 @@ img {
   }
 }
 
-
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 992px) {
   .Contact {
+    .ContactDescription {
+      height: 510px;
+    }
     .Form {
       .contact-btn {
         margin-top: 35px;
@@ -441,4 +454,23 @@ img {
   top: 4300.57px;
   background: rgba(111, 207, 151, 0.2);
   transform: rotate(127.02deg);
+}
+
+.responsiveCal {
+
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+
+}
+
+.responsiveCal iframe {
+
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 100%;
+  height: 100%;
+
 }

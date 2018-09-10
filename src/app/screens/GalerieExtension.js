@@ -38,6 +38,18 @@ class GalerieExtension extends React.Component {
                        data-gallery="gallery" className="col-md-4 mb-4">
                         <img src="./images/Piscine.jpg" className="img-fluid rounded"/>
                     </a>
+                    <a href="./images/extension5.jpeg" data-toggle="lightbox"
+                       data-gallery="gallery" className="col-md-4 mb-4">
+                        <img src="./images/extension5.jpeg" className="img-fluid rounded"/>
+                    </a>
+                    <a href="./images/extension6.jpeg" data-toggle="lightbox"
+                       data-gallery="gallery" className="col-md-4 mb-4">
+                        <img src="./images/extension6.jpeg" className="img-fluid rounded"/>
+                    </a>
+                    <a href="./images/extension7.jpeg" data-toggle="lightbox"
+                       data-gallery="gallery" className="col-md-4 mb-4">
+                        <img src="./images/extension7.jpeg" className="img-fluid rounded"/>
+                    </a>
                 </div>
             </div>
         )
