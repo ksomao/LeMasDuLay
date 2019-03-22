@@ -34,7 +34,7 @@ class Home extends React.Component {
             return <div/>
         }
         return (
-            <div className={"Alentours"}>
+             <div className={"Alentours"}>
                 <SectionTitle text={"Les Environs"} styles={"AlentoursTop"}/>
                 <div className="activities mt-5 d-flex flex-column align-items-center ">
                     {this.state.data.activities.map((activity, index) => (
@@ -78,8 +78,6 @@ class Home extends React.Component {
                     {this.getActivities()}
                     <SectionTitle text='Contact' styles={"ContactTop"}/>
                     <SectionContact/>
-                {/*    <div className="firstForm"/>
-                    <div className="secondForm"/>*/}
                 </div>
             </div>
         )
